@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'Chillax-Regular'; /* Name your font family */
+    src: url('../fonts/Chillax-Regular.otf'); /* Locate the .ttf file within your directory*/
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    background: #1B1F24;
+    color: white;
+    font-family: 'Chillax-Regular', sans-serif; 
+}
+
+button {
+    color: #1B1F24;
+    font-family: 'Chillax-Regular', sans-serif; 
+    font-size: 14px;
+    padding: 18px 32px;
+    font-weight: 600;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #096BFF 0%, #FFF 100%);
+}
+
+.cusbtn {
+    color: #1B1F24;
+    font-family: 'Chillax-Regular', sans-serif; 
+    font-size: 14px;
+    padding: 10px 18px;
+    font-weight: 600;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #096BFF 0%, #FFF 100%);
+}
+.last-work {
+    color: #FFF;
+    font-family: 'Chillax-Regular', sans-serif; 
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.show {
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(153, 153, 153, 0.10) 100%);
+    backdrop-filter: blur(30px);
+    position: absolute;
+    width: 100%;
+    top: 92px;
+    left: 0;
+    z-index: 9;
+}
+
+.btncion {
+    width: 48px;
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(6px);
+}
+
+.downicon {
+    width: 56px;
+    height: 56px;
+    fill: linear-gradient(90deg, rgba(9, 107, 255, 0.10) 0%, rgba(152, 255, 224, 0.10) 100%);
+    backdrop-filter: blur(30px);
+}
+
+.prof {
+    color: #FFF;
+
+    font-family: 'Chillax-Regular', sans-serif; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 10.8px;
+}
+
+.main-heading {
+    color: #FFF;
+    font-family: "Nunito", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+.color{
+    background: linear-gradient(90deg, #98FFE0 0%, #FFF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.navbar {
+    border-radius: 100px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.10) 0%, rgba(153, 153, 153, 0.10) 100%);
+    backdrop-filter: blur(30px);
+}
+
+.EXPERT {
+    color: #98FFE0;
+    font-family: 'Chillax-Regular', sans-serif; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.bannerPara {
+    color: #FFF;
+    font-family: 'Chillax-Regular', sans-serif; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.topSection {
+    border-radius: 32px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.10) 0%, rgba(153, 153, 153, 0.10) 100%);
+    backdrop-filter: blur(30px);
+}
+
+.navbar-brand,
+.footersitetitle {
+    background: linear-gradient(94deg, #FFF 4.53%, #096BFF 96.08%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.work h3 {
+    color: #FFF;
+    font-family: 'Chillax-Regular', sans-serif; 
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.work .profession {
+    color: #98FFE0;
+    font-family: 'Chillax-Regular', sans-serif; 
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.descr {
+    color: #FFF;
+
+    font-family: 'Chillax-Regular', sans-serif; 
+
+    font-weight: 400;
+    line-height: 28px;
+}
+
+footer {
+    background: #22282F;
+}
+
+.tai {
+    color: #98FFE0;
+    font-family: 'Chillax-Regular', sans-serif; 
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.icon li {
+    width: 56px;
+    height: 56px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.10) 0%, rgba(153, 153, 153, 0.10) 100%);
+
+    backdrop-filter: blur(30px);
+}
+
+.bg-shadow {
+    width: 458px;
+    height: 458px;
+    border-radius: 458px;
+    background: rgba(124, 254, 253, 0.50);
+    filter: blur(345.20001220703125px);
+    position: absolute;
+    bottom: 0;
+}
+
+.header-shadow {
+    width: 458px;
+    height: 458px;
+    border-radius: 458px;
+    background: #096BFF;
+    filter: blur(345.20001220703125px);
+    position: absolute;
+    bottom: -25%;
+    right: -25%;
+}
+
+.header-top-shadow {
+    width: 458px;
+    height: 458px;
+    border-radius: 458px;
+    background: rgba(124, 254, 253, 0.70);
+    filter: blur(345.20001220703125px);
+    position: absolute;
+    top: -25%;
+    left: 25%;
+}

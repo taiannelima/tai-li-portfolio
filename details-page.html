@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="overflow-hidden position-relative">
+
+    <div class="header-top-shadow"></div>
+
+    <div class="container mt-2 mb-4 pt-4 ">
+      <nav class="navbar position-relative py-3 px-4 navbar-expand-lg ">
+        <a class="navbar-brand" href="#">TAI LI</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse justify-content-center navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav gap-2 gap-md-5 mb-2 mb-lg-0">
+            <li class="nav-item ps-4 ps-md-0">
+              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item ps-4 ps-md-0">
+              <a class="nav-link text-white" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item ps-4 ps-md-0">
+              <a class="nav-link text-white" href="#">ART</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <button class="btn btn-primary">CONTACT US</button>
+        </div>
+      </nav>
+    </div>
+
+    <div class="header-shadow"></div>
+  </div>
+
+
+
+
+  <!-- Blog Post Page -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <!-- Blog Post -->
+            <article class="mb-5">
+                <header class="mb-4">
+                    <h1 class="fw-bolder mb-1">Erikk</h1>
+                    <div class="text-muted fst-italic mb-2">Posted on January 1, 2023 by John Doe</div>
+                    <div class="author-info d-flex align-items-center">
+                        <i class="bi bi-person-circle"></i>
+                        
+                        <div class="ms-2">
+                            <div>John Doe</div>
+                            <div class="text-muted">john.doe@example.com</div>
+                        </div>
+                    </div>
+                </header>
+
+                <figure class="post-image mb-4">
+                    <img src="assets/img/img1.png" alt="Blog Post Image" class="img-fluid">
+                </figure>
+
+                <section class="mb-5">
+                    <p class="fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="fs-5 mb-4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p class="fs-5 mb-4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </section>
+
+                <footer class="text-muted">
+                    <p class="mb-0">Tagged: <a href="#" class="text-decoration-none">Bootstrap</a>, <a href="#" class="text-decoration-none">HTML</a>, <a href="#" class="text-decoration-none">CSS</a></p>
+                </footer>
+            </article>
+
+            <!-- Comments Section -->
+            <section>
+                <h2 class="fw-bolder mb-4">Comments</h2>
+                <div class="card mb-4 bg-transparent">
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group mb-3">
+                                <label for="comment">Leave a comment:</label>
+                                <textarea class="form-control" id="comment" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <div class="d-flex gap-2 mb-3">
+                        <i class="bi bi-person-circle"></i> 
+                        <div class="flex-grow-1">
+                            <div class="fw-bold">Jane Doe</div>
+                            <div class="text-muted">Posted on January 2, 2023</div>
+                            <p class="mb-0">This is a comment.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-2 mb-3">
+                        <i class="bi bi-person-circle"></i>
+                        <div class="flex-grow-1">
+                            <div class="fw-bold">John Smith</div>
+                            <div class="text-muted">Posted on January 3, 2023</div>
+                            <p class="mb-0">This is another comment.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+  <footer class="container-fluid py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 d-flex flex-column justify-content-between gap-3">
+          <a class="footersitetitle" href="#" style="width: fit-content;">TAI LI</a>
+          <ul class="list-unstyled icon d-flex gap-2">
+            <li class="p-2 d-flex justify-content-center align-items-center rounded-circle">
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M15.15 8.4C14.3836 8.39737 13.6241 8.54589 12.9151 8.83707C12.2061 9.12826 11.5615 9.55638 11.0182 10.0969C10.4748 10.6375 10.0434 11.2799 9.74856 11.9874C9.45374 12.6949 9.30131 13.4535 9.3 14.22V20.1C9.3 20.3387 9.39482 20.5676 9.56361 20.7364C9.73239 20.9052 9.96131 21 10.2 21H12.3C12.5387 21 12.7676 20.9052 12.9364 20.7364C13.1052 20.5676 13.2 20.3387 13.2 20.1V14.22C13.1998 13.9474 13.2571 13.6778 13.368 13.4288C13.479 13.1798 13.6412 12.957 13.8441 12.7749C14.0469 12.5928 14.2859 12.4555 14.5454 12.372C14.8048 12.2884 15.079 12.2605 15.35 12.29C15.836 12.3512 16.2827 12.5887 16.6052 12.9573C16.9278 13.326 17.1038 13.8002 17.1 14.29V20.1C17.1 20.3387 17.1948 20.5676 17.3636 20.7364C17.5324 20.9052 17.7613 21 18 21H20.1C20.3387 21 20.5676 20.9052 20.7364 20.7364C20.9052 20.5676 21 20.3387 21 20.1V14.22C20.9987 13.4535 20.8463 12.6949 20.5514 11.9874C20.2566 11.2799 19.8252 10.6375 19.2818 10.0969C18.7385 9.55638 18.0939 9.12826 17.3849 8.83707C16.6759 8.54589 15.9164 8.39737 15.15 8.4Z" fill="white" />
+                  <path d="M6.6 9.29999H3.9C3.40294 9.29999 3 9.70293 3 10.2V20.1C3 20.597 3.40294 21 3.9 21H6.6C7.09706 21 7.5 20.597 7.5 20.1V10.2C7.5 9.70293 7.09706 9.29999 6.6 9.29999Z" fill="white" />
+                  <path d="M5.25 7.5C6.49264 7.5 7.5 6.49264 7.5 5.25C7.5 4.00736 6.49264 3 5.25 3C4.00736 3 3 4.00736 3 5.25C3 6.49264 4.00736 7.5 5.25 7.5Z" fill="white" />
+                </svg>
+              </a>
+            </li>
+            <li class="p-2 d-flex justify-content-center align-items-center rounded-circle">
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M15.022 3.34303C15.53 3.25603 16.099 3.22703 16.635 3.31803C17.5898 3.4793 18.4744 3.92266 19.175 4.59103C19.631 4.60103 20.08 4.51103 20.477 4.38303C20.8607 4.2579 21.229 4.08983 21.575 3.88203L21.584 3.87603C21.728 3.78008 21.9008 3.73688 22.073 3.75375C22.2452 3.77062 22.4063 3.84651 22.5289 3.96857C22.6516 4.09063 22.7282 4.25135 22.7459 4.42348C22.7636 4.59561 22.7213 4.76857 22.626 4.91303C22.419 5.22803 22.13 5.79003 21.807 6.42003L21.652 6.72103C21.467 7.08103 21.277 7.44503 21.1 7.75703C20.989 7.95303 20.87 8.15203 20.75 8.32403V8.59803C20.7623 10.2367 20.4481 11.8613 19.8257 13.3772C19.2034 14.8932 18.2853 16.2699 17.1252 17.4272C15.965 18.5845 14.586 19.4991 13.0685 20.1177C11.5511 20.7363 9.9256 21.0464 8.287 21.03C5.985 21.03 3.693 20.472 1.76 19.467C1.54 19.362 1.321 19.253 1.1 19.134C0.885558 19.0075 0.736998 18.8052 0.693 18.57C0.658307 18.3812 0.680689 18.1852 0.758378 18.007C0.836066 17.8288 0.964822 17.6773 1.13 17.57L3.04 16.344C3.23342 16.2181 3.46594 16.162 3.699 16.1855C3.93206 16.209 4.15258 16.3108 4.322 16.475C4.901 17.042 5.515 17.558 6.176 18.013C6.676 18.363 7.219 18.633 7.787 18.815C8.763 19.113 9.779 19.184 10.762 19.024C12.1668 18.8135 13.4688 18.1712 14.455 17.193C15.4412 16.2148 16.085 14.9183 16.293 13.514C16.48 12.366 16.48 11.286 16.48 10.11C16.48 9.86203 16.48 9.61803 16.48 9.36703C16.48 8.64803 16.476 7.91303 16.338 7.19903C15.974 7.07003 15.59 7.01603 15.208 7.04103C14.8982 7.03079 14.5982 6.89967 14.3815 6.67815C14.1649 6.45663 14.0531 6.16313 14.076 5.86503V5.17403C14.0975 4.77692 14.2284 4.39633 14.4485 4.07289C14.6686 3.74945 14.9676 3.49685 15.311 3.34303H15.022Z" fill="white" />
+                </svg>
+              </a>
+            </li>
+            <li class="p-2 d-flex justify-content-center align-items-center rounded-circle">
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0.5C5.648 0.5 0.5 5.648 0.5 12C0.5 17.791 4.565 22.437 10.063 23.338V15.236H7.102V12H10.063V9.585C10.063 6.625 11.708 5.095 14.365 5.095C15.663 5.095 16.872 5.332 16.872 5.332V8.205H15.389C13.923 8.205 13.437 9.112 13.437 10.042V12H16.735L16.246 15.236H13.437V23.338C18.935 22.437 23 17.791 23 12C23 5.648 17.852 0.5 12 0.5Z" fill="white" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 d-flex flex-column justify-content-between gap-3">
+          <h6 class="footersubtitle">PRODUCTS</h6>
+          <ul class="list-unstyled d-flex flex-column gap-2">
+            <li>
+              <a href="#">Product 1</a>
+            </li>
+            <li>
+              <a href="#">Product 2</a>
+            </li>
+            <li>
+              <a href="#">Product 3</a>
+            </li>
+            <li>
+              <a href="#">Product 4</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 d-flex flex-column justify-content-between gap-3">
+          <h6 class="footersubtitle">SERVICES</h6>
+          <ul class="list-unstyled d-flex flex-column gap-2">
+            <li>
+              <a href="#">Service 1</a>
+            </li>
+            <li>
+              <a href="#">Service 2</a>
+            </li>
+            <li>
+              <a href="#">Service 3</a>
+            </li>
+            <li>
+              <a href="#">Service 4</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
