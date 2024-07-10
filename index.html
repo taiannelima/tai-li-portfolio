@@ -6,6 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bootstrap demo</title>
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+  <script>
+    $(function () {
+      $("#accordion").accordion();
+    });
+  </script>
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
@@ -228,6 +235,63 @@
       </a>
     </div>
   </div>
+
+
+
+  
+<style>
+  .ui-accordion .ui-accordion-header {
+    
+    margin: 8px 0 0 0;
+}
+.ui-accordion .ui-accordion-header {
+    padding: 1em .5em 1em .7em;
+}
+</style>
+
+
+<div class="container my-5">
+  <div id="accordion">
+      <h3>What inspired you to pursue a career in UI/UX design?</h3>
+      <div>
+          <p>
+              I love psychology and being empathetic to people, I love art and design. But what made me pursue it was the desire to be able to understand and work alongside my peers in my field.
+          </p>
+      </div>
+      
+      <h3>Can you describe your design philosophy and approach?</h3>
+      <div>
+          <p>
+              My design philosophy centers on creating intuitive, user-centered experiences that seamlessly blend functionality with aesthetics. I believe that design should not only solve problems but also delight users and make their interactions effortless. This philosophy influences my approach by ensuring that I prioritize user needs and feedback throughout the design process. I focus on clarity, simplicity, and accessibility, striving to create interfaces that are both beautiful and easy to use.
+          </p>
+      </div>
+
+      <h3>What are some of the most challenging projects you have worked on, and how did you overcome those challenges?</h3>
+      <div>
+          <p>
+              I believe the most challenging project was redesigning the NSA’s website. The lack of information and the inability to involve stakeholders made it difficult to determine if the website's existing design was intentional for security purposes. Despite these challenges, I worked with the available resources to create a cleaner and more user-friendly interface while maintaining the core essence of the original design.
+          </p>
+      </div>
+
+      <h3>How do you stay updated with the latest trends and technologies in UI/UX design?</h3>
+      <div>
+          <p>
+              Community forums, conferences, social media, and research.
+          </p>
+      </div>
+
+      <h3>What do you consider to be your most significant achievement in your design career so far?</h3>
+      <div>
+          <p>
+              As a project manager, to be able to support, collaborate and engage with my team, adding value to the projects for the benefit of the clients too.
+          </p>
+      </div>
+  </div>
+</div>
+
+
+
+  
 
   <footer class="container-fluid py-4">
     <div class="container">
